@@ -1,0 +1,39 @@
+{
+	"name": "react-javascript-template",
+	"version": "1.0.0",
+	"description": "React starter template using webpack, babel, eslint, prettier, testing with jest and react-testing-library",
+	"main": "index.js",
+	"scripts": {
+		"start": "webpack serve --config ./buildutils/webpack.dev.js --open",
+		"build": "webpack --config ./buildutils/webpack.prod.js",
+		"test": "jest"
+	},
+	"keywords": [
+		"babel",
+		"webpack",
+		"starter",
+		"react-starter"
+	],
+	"author": "Tahir Ahmed T",
+	"license": "ISC",
+	"dependencies": {
+		"react": "^17.0.2",
+		"react-dom": "^17.0.2"
+	},
+	"devDependencies": {
+		"@babel/core": "^7.16.0",
+		"@babel/plugin-transform-runtime": "^7.16.0",
+		"@babel/preset-env": "^7.16.0",
+		"@babel/preset-react": "^7.16.0",
+		"babel-loader": "^8.2.3",
+		"css-loader": "^6.5.1",
+		"html-webpack-plugin": "^5.5.0",
+		"sass": "^1.43.4",
+		"sass-loader": "^12.3.0",
+		"style-loader": "^3.3.1",
+		"webpack": "^5.64.0",
+		"webpack-cli": "^4.9.1",
+		"webpack-dev-server": "^4.5.0",
+		"webpack-merge": "^5.8.0"
+	}
+}
