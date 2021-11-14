@@ -6,6 +6,8 @@
 	"scripts": {
 		"start": "webpack serve --config ./buildutils/webpack.dev.js --open",
 		"build": "webpack --config ./buildutils/webpack.prod.js",
+		"lint": "eslint --fix \"./src/**/*.{js,jsx,ts,tsx,json}\"",
+		"prettier": "prettier --write \"./src/**/*.{js,jsx,ts,tsx,json,css,scss,md}\"",
 		"test": "jest"
 	},
 	"keywords": [
@@ -27,7 +29,15 @@
 		"@babel/preset-react": "^7.16.0",
 		"babel-loader": "^8.2.3",
 		"css-loader": "^6.5.1",
+		"eslint": "^8.2.0",
+		"eslint-config-airbnb": "^19.0.0",
+		"eslint-config-prettier": "8.3.0",
+		"eslint-plugin-import": "^2.25.3",
+		"eslint-plugin-jsx-a11y": "^6.5.1",
+		"eslint-plugin-react": "^7.27.0",
+		"eslint-plugin-react-hooks": "^4.3.0",
 		"html-webpack-plugin": "^5.5.0",
+		"prettier": "2.4.1",
 		"sass": "^1.43.4",
 		"sass-loader": "^12.3.0",
 		"style-loader": "^3.3.1",
