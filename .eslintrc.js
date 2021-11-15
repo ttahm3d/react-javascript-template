@@ -3,6 +3,7 @@ module.exports = {
     browser: true,
     es6: true,
     node: true,
+    jest: true,
   },
   extends: ['eslint:recommended', 'plugin:react/recommended'],
   globals: {
@@ -19,7 +20,7 @@ module.exports = {
   plugins: ['react', 'react-hooks'],
   rules: {
     indent: ['error', 2],
-    'linebreak-style': ['error', 'unix'],
+    'linebreak-style': 0,
     'react/react-in-jsx-scope': 'off',
     quotes: ['error', 'single'],
     semi: ['error', 'always'],
