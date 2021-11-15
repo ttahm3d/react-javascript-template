@@ -10,7 +10,7 @@ const App = () => {
         minHeight: '100vh',
       }}
     >
-      <h3>React javascript starter</h3>
+      <h3>React starter</h3>
     </div>
   );
 };
